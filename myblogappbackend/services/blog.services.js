@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-const blogPage = require("../model/blogPage");
+const blogPage = require("../model/blog.model");
 
 exports.findBlogPage = async () => {
   try {
